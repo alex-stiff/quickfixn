@@ -1,2 +1,5 @@
 language: csharp
 solution: QuickFIXn.sln
+script:
+  - dotnet restore
+  - dotnet pack
